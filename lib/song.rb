@@ -20,6 +20,6 @@ class Song
     song.name = name
     @@all.push song
     song
-    
+  end
 
 end
