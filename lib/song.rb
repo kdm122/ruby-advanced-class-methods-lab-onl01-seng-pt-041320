@@ -30,6 +30,8 @@ class Song
     song
   end
   
+  def 
+  
   def self.name(name)
     @name = name
   end
