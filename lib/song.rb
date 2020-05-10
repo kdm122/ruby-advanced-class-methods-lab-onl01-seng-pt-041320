@@ -35,8 +35,5 @@ class Song
 #    @@all.find{|song| song.name == song}
   end
   
-  def self.name(name)
-    @name = name
-  end
 
 end
