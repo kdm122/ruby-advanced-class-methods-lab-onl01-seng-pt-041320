@@ -47,7 +47,7 @@ class Song
     song = self.new
     split_fname = filename.split(" - ")
     split_name = split_fname[1].chomp(".mp3")
-    song.name = split_fname
+    song.name = split_name
     @@all.push song
     song
   end
