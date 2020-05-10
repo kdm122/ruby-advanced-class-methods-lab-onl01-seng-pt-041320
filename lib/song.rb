@@ -50,5 +50,6 @@ class Song
     song.name = split_fname
     @@all.push song
     song
+  end
 
 end
